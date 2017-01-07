@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         final MyCommonHash myCommonHash = new MyCommonHash();
 
-        final TextView viewHash = (TextView) findViewById(R.id.hashedResult);
+        final TextView viewHash = (TextView) findViewById(R.id.viewHash);
         final TextView viewRawTextDisp = (TextView) findViewById(R.id.rawTextDisplay);
 
         final EditText edit = (EditText) findViewById(R.id.rawText);
@@ -129,9 +129,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void setupEditWindow() {
-
     }
 }

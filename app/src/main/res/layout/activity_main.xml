@@ -7,20 +7,6 @@
     android:fitsSystemWindows="true"
     tools:context="com.archfiery.andriod.commonhash.MainActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:hint="@string/rawText"
-            android:ems="10"
-            android:id="@+id/rawText"
-            android:layout_marginTop="15dp"/>
-    </ScrollView>
-
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
